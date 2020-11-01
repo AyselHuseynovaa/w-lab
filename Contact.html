@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description" content="">
+    <meta name="keywords" content="HTML">
+    <meta name="author" content=" Aisel Guseinova">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 8%;
+            background-image: url(_112813312_stmarylakeglaciernp_gauravagrawal.jpg);
+            background-size: cover;
+            font-family: sans-serif;
+            background-position: center;
+        }
+
+        .contact-form {
+            width: 350px;
+            background: #fff;
+            padding: 25px;
+            margin: 2% auto 0;
+            text-align: center;
+        }
+
+        .input-box {
+
+            padding: 7px;
+            margin: 10px 0;
+            width: 100%;
+            border: 1px solid#999;
+            outline: none;
+        }
+
+        textarea {
+
+            padding: 7px;
+            margin: 10px 0;
+            width: 100%;
+            border: 1px solid#999;
+            outline: none;
+            height: 100px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contact-form">
+        <form>
+            <h1>Contact Form</h1>
+
+            <hr>
+            <label for=" First Name"><b> First Name</b></label>
+            <input type="text" placeholder="Your name" required class="input-box">
+
+
+            <label for="Last Name"><b> Last Name</b></label>
+            <input type="text" placeholder="Your last name" required class="input-box">
+            <label for="subject"><b>Subject</b></label>
+            <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+
+            <label for="country">Country</label>
+            <select name="country">
+                <option value="Azerbaijan">Azerbaijan</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Turkey">Turkey</option>
+            </select>
+            <br>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

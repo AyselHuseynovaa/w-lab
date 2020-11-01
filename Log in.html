@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="">
+    <meta name="keywords" content="HTML">
+    <meta name="author" content=" Aisel Guseinova">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <style>
+    body {
+        margin: 0;
+        padding: 8%;
+        background-image: url(5ff5958543925db8120220935849b91c.jpg);
+        background-size: cover;
+        font-family: sans-serif;
+        background-position: center;
+    }
+
+    .log-in-form{
+        width: 350px;
+        background: #fff;
+        padding: 25px;
+        margin: 2% auto 0;
+        text-align: center;
+    }
+
+    .input-box {
+        border-radius: 30px;
+        padding: 7px;
+        margin: 10px 0;
+        width: 100%;
+        border: 1px solid#999;
+        outline: none;
+    }
+
+    button {
+        background-color: #21afde;
+        width: 100%;
+        padding: 10px;
+        border-radius: 20px;
+        margin: 10px 0;
+        border: none;
+        font-size: 15px;
+    }
+</style>
+</head>
+<body>
+    <div class="log-in-form">
+        <form>
+            <h1>Log in</h1>
+
+            <hr>
+            <label for="Username"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" required class="input-box">
+
+
+            <label for="Password"><b>Password</b></label>
+            <input type="password" placeholder="Enter password" required class="input-box">
+
+
+            <input type="checkbox">
+            <label for="remember">Remember me</label>
+
+
+            <button type="submit">Log in</button>
+            <p> Forgot <a href="#">Password</a>?</p>
+        </form>
+    </div>
+</body>
+</html>
