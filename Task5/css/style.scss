@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  font-family: 'Alatsi', sans-serif;
+  #page{
+    header{
+      margin-bottom: 20px;
+      .row{
+        .icon{
+         padding-top: 20px;
+        }
+      }
+    }
+  }
+  main{
+    
+    .caption{
+      h1{
+        font-weight: 600;
+      }
+    }
+    
+    .horizontal{
+      margin-top: 50px;
+      .horizontal-card{
+        border: none;
+      .card-text{
+        font-weight: 700;
+      }}
+
+    }
+  }
+}
+
